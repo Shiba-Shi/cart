@@ -9,7 +9,7 @@ class IndexTests(TestCase):
         r = self.client.get('/index/')
         self.assertEqual(r.context['cartnum'], 0)
 
-
+##
 class CartOrderTests(TestCase):
 
     def test_error_mail(self):
